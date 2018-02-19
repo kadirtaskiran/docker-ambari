@@ -9,7 +9,7 @@ USAGE
 : ${NODE_PREFIX=amb}
 : ${AMBARI_SERVER_NAME:=${NODE_PREFIX}-server}
 : ${AMBARI_SERVER_IMAGE:="hortonworks/ambari-server:latest"}
-: ${AMBARI_AGENT_IMAGE:="hortonworks/ambari-agent:latest"}
+: ${AMBARI_AGENT_IMAGE:="cloudnesil/ambari-agent:v1"}
 : ${DOCKER_OPTS:=""}
 : ${CONSUL:="${NODE_PREFIX}-consul"}
 : ${CONSUL_IMAGE:="sequenceiq/consul:v0.5.0-v6"}
